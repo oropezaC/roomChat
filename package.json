@@ -1,0 +1,30 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "watchify client/app.js -o public/build.js",
+    "go": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oropezaC/roomChat.git"
+  },
+  "author": "yahir oropeza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oropezaC/roomChat/issues"
+  },
+  "homepage": "https://github.com/oropezaC/roomChat#readme",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.2",
+    "nodemon": "^1.12.1",
+    "swig": "^1.4.2"
+  }
+}
