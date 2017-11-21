@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "watchify client/app.js -o public/build.js",
+    "build": "watchify src/app.js -o src/build.js",
     "go": "nodemon server/app.js"
   },
   "repository": {
